@@ -12,9 +12,9 @@ const themeStore = useThemeStore();
           <h1>Material Theme Editor</h1>
         </div>
         <div class="nav-links">
-          <router-link to="/">Theme Editor</router-link>
-          <router-link to="/saved">Saved Themes</router-link>
-          <router-link to="/docs">Documentation</router-link>
+          <router-link to="/design_editor/">Theme Editor</router-link>
+          <router-link to="/design_editor/saved">Saved Themes</router-link>
+          <router-link to="/design_editor/docs">Documentation</router-link>
         </div>
       </div>
     </nav>
