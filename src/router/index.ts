@@ -7,17 +7,17 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/design_editor/',
       name: 'editor',
       component: ThemeEditor,
     },
     {
-      path: '/saved',
+      path: '/design_editor/saved',
       name: 'saved',
       component: SavedThemes,
     },
     {
-      path: '/docs',
+      path: '/design_editor/docs',
       name: 'documentation',
       component: Documentation,
     },
